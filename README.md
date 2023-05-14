@@ -2,6 +2,8 @@
 
 I used html and css in this project where i made one page webpage.
 
-First project is for selling the products.
+First project is for " selling the products ".
 
-Second project is for personal portfolio type project.
+Second project is for " personal portfolio " type project.
+
+Third project is a basic " Restaurent website " .
