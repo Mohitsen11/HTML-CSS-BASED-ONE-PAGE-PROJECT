@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #edf1fd;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button{
+    padding: 4px 10px;
+    font-size: 13px;
+    font-weight: 700;
+    border: 1px solid #FFF;
+    background-color: rgb(18, 155, 155);
+    border-radius: 5px;
+    color: #fff;
+    width: fit-content;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #fff;
+    color: rgb(18, 155, 155);
+    border: 1px solid #000;
+}
+
+header{
+    padding: 15px 0px;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+}
+
+nav ul li a{
+    color: #000;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.search-field{
+    display: flex;
+    gap: 30px;
+}
+
+input{
+    padding: 4px 10px;
+}
+
+.hero-section-field{
+    display: flex;
+    align-items: center;
+}
+
+.hero-left-section-field{
+    width: 60%;
+    padding:0 8%;
+}
+
+.hero-left-section-field h1{
+    font-weight: 800;
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+
+.hero-left-section-field h1 span{
+    font-weight: 900;
+    color: rgb(18, 155, 155);
+    background-color: #dfdfe0;
+    padding: 0px 15px;
+}
+
+.hero-left-section-field p{
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.hero-left-section-field p span{
+    color: rgb(18, 155, 155);
+    font-size:20px;
+    font-weight: 700;
+}
+
+.hero-right-section-field{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+}
+
+.hero-right-section-field-btn{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-right-section-field img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    font-weight: 600;
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+    gap:30px
+}
+
+footer ul li i{
+    cursor: pointer;
+}
+
+
